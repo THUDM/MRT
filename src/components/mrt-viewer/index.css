@@ -1,0 +1,29 @@
+.mrt-background {
+    transition: opacity .5s;
+}
+
+.mrt-background .mrt-background-card {
+    opacity: 0.9;
+    transition: opacity .5s;
+}
+
+.mrt-background:hover .mrt-background-card {
+    opacity: 0.6;
+}
+
+.mrt-background .mrt-background-text {
+    opacity: 0.25;
+    transition: opacity .5s;
+}
+
+.mrt-background:hover .mrt-background-text {
+    opacity: 1;
+}
+
+.mrt-background:hover .mrt-background-card:hover {
+    cursor: pointer;
+}
+
+.mrt-era-background {
+    transition: opacity .5s;
+}

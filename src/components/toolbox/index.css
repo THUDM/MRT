@@ -1,0 +1,67 @@
+.qrcode {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    display: none;
+    margin: 0 0.5rem;
+}
+
+.qrcode-icon:hover > .qrcode {
+    display: block;
+}
+
+.toolgroup.horizontal {
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    padding: 0.25rem;
+}
+
+.toolgroup.horizontal .toolgroup {
+    float: right;
+}
+
+.toolgroup.vertical .tool {
+    float: none;
+}
+
+.toolgroup.horizontal .toolgroup.secondary {
+    display: none;
+}
+
+.toolgroup.horizontal:hover .toolgroup.secondary {
+    display: block;
+}
+
+.toolgroup.vertical .tool.secondary {
+    display: none;
+}
+
+.toolgroup.vertical:hover .tool.secondary {
+    display: block;
+}
+
+.mrt-modal.ant-modal {
+    width: 50% !important;
+    top: 10% !important;
+}
+
+.mrt-modal .slick-slide {
+    height: auto !important;
+}
+
+@media screen and (max-width: 560px) {
+    .qrcode {
+        position: absolute;
+        left: auto;
+        right: 100%;
+        top: 0;
+        display: none;
+        margin: 0 0.5rem;
+    }
+    .mobile.toolgroup.horizontal {
+        left: 7.5vw;
+        top: 10px;
+        transform: translate(-50%, 0%);
+    }
+}

@@ -1,0 +1,21 @@
+.helper-tab {
+    position: relative;
+}
+
+.helper-content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    line-height: normal;
+    padding: 5rem 2rem 1rem 2rem;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(225, 225, 225, 0.75) 80%);
+}
+
+.helper-content p {
+    text-align: left;
+}
+
+.helper img {
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,10 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/martianov/typed-save-svg-as-png/ac49eb7cc003feaebfa91f0364365df30425fb98/typings.json",
+    "raw": "registry:npm/save-svg-as-png#1.0.3+20160511155423",
+    "main": "index.d.ts",
+    "version": "^1.0.3",
+    "name": "save-svg-as-png"
+  }
+}

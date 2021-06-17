@@ -1,0 +1,41 @@
+._mrtviewer {
+    position: relative;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: scroll;
+
+    ._mrtview_canvas {
+        position: relative;
+        overflow-x: hidden;
+        overflow-y: hidden;
+
+        ._mrtviewer_bg {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        ._mrtviewer_cluster_mask {
+            opacity: 0.8;
+        }
+
+        ._mrtviewer_cluster_mask:hover {
+            opacity: 0.6;
+            cursor: pointer;
+        }
+    }
+    .bottom-authors {
+        opacity: 0.5;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        text-align: right;
+        color: #00000060;
+        margin-right: 10px;
+        margin-bottom: 5px;
+        svg {
+            vertical-align: top;
+            margin-right: 5px;
+        }
+    }
+}

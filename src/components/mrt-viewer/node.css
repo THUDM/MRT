@@ -1,0 +1,89 @@
+.paper-text {
+    font-weight: bold;
+    transition: all .5s;
+}
+
+.paper-text:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.paper-edit-icon-group {
+    transition: opacity .5s;
+}
+
+.paper-edit-icon {
+    transition: transform .5s;
+}
+
+.paper-edit-icon:hover {
+    cursor: pointer;
+    transform: scale(1.5)
+}
+
+.paper-view-group-inner {
+    transition: transform .5s;
+    opacity: 1;
+}
+
+.paper-view-group-inner:hover .paper-text-background {
+    transform: scale(1);
+}
+
+.paper-text-background {
+    transform: scale(0);
+    transition: transform .5s;
+}
+
+
+.paper-view-group-inner .paper-edit-icon-group {
+    transform: scale(0);
+    transition: transform .5s;
+}
+
+.paper-view-group-inner:hover .paper-edit-icon-group {
+    transform: scale(1);
+}
+
+.paper-view-group-inner:hover {
+    transform: scale(2);
+}
+
+/* .mrt-node-text-container:hover .paper-view-group-inner:hover text {
+    opacity: 1;
+} */
+
+/* .era-node-text-group:hover .paper-view-group-inner {
+    transform: scale(0.5);   
+} */
+
+/* .mrt-node-text-container:hover .paper-view-group-inner text {
+    opacity: 0.25;
+} */
+
+
+.era-node-circle {
+    transition: fill .5s;
+}
+
+.mrt-link-path {
+    animation: animate-frame 1.5s linear forwards;
+    opacity: 0;
+}
+
+@keyframes animate-frame {
+    to {
+        opacity: 1;
+        stroke-dashoffset: 0;
+    }
+}
+
+.mrt-link-dot {
+    animation: animate-frame 5s linear forwards infinite;
+}
+
+.mrt-link-arrow {
+    animation: animate-frame .5s linear forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}

@@ -1,0 +1,32 @@
+{
+    "zh": {
+        "like": "喜欢",
+        "dislike": "不喜欢",
+        "share": "分享",
+        "qr code": "二维码",
+        "font size": "字体大小",
+        "larger font": "字体增大",
+        "smaller font": "字体减小",
+        "zoom": "视图",
+        "zoom in": "放大",
+        "zoom out": "缩小",
+        "download": "下载",
+        "full picture": "原图",
+        "snapshot": "快照",
+        "control": "控制",
+        "display sub branch": "显示次级分支",
+        "hide sub branch": "隐藏次级分支",
+        "enable text span": "启用文本跨越",
+        "disable text span": "禁用文本跨越",
+        "load json": "加载JSON",
+        "toolbox": "工具箱",
+        "guide": "使用指南",
+        "enable recommendation": "启用推荐",
+        "disable recommendation": "禁用推荐",
+        "mobile": "移动端",
+        "desktop": "PC端"
+    },
+    "en": {
+
+    }
+}

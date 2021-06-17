@@ -1,0 +1,92 @@
+[
+    {
+        "title": {
+            "en": "Master Reading Tree",
+            "zh": "溯源树"
+        },
+        "description": {
+            "en": "Master Reading Tree is a tool for helping researchers trace the development of publications.",
+            "zh": "溯源树是一个用来帮助研究人员探寻论文演变发展的工具。"
+        }
+    },
+    {
+        "title": {
+            "en": "Toolbox",
+            "zh": "工具箱"
+        },
+        "description": {
+            "en": "The lefttop toolbox group can help you to use including zooming, capturing, sharing, etc.",
+            "zh": "左上角的工具箱中包含一系列功能帮助您使用，包括缩放、截图、分享等。"
+        }
+    },
+    {
+        "title": {
+            "en": "Branch",
+            "zh": "分支"
+        },
+        "description": {
+            "en": "The references of source paper are divided into several clusters according to their categories.",
+            "zh": "源论文的引用按照类别被划分成几个分支。"
+        }
+    },
+    {
+        "title": {
+            "en": "Sub-Branch",
+            "zh": "子分支"
+        },
+        "description": {
+            "en": "Sub-branches include indirect references which are influential and relative.",
+            "zh": "子分支中包含一些有影响力的间接引用。"
+        }
+    },
+    {
+        "title": {
+            "en": "Move",
+            "zh": "移动"
+        },
+        "description": {
+            "en": "Some work might be mis-classified by our algorithm, you can edit it by clicking the move button.",
+            "zh": "我们的算法错分了一些工作，您可以通过移动按钮进行编辑修正。"
+        }
+    },
+    {
+        "title": {
+            "en": "Influence",
+            "zh": "影响力"
+        },
+        "description": {
+            "en": "The influence of those works can be visualized by several ways. The thickness of each branch represents the influential of that category. The percentage in the node circle indicates the influence of works in that period. The star of each work gives its individual contribution.",
+            "zh": "这些论文的影响力体现在若干方面。每个分支的粗细代表了这个类别的影响力，每个节点圆圈中的填充代表了这个时期的影响力，每篇论文下还有象征该论文贡献的星星。"
+        }
+    },
+    {
+        "title": {
+            "en": "Influence",
+            "zh": "影响力"
+        },
+        "description": {
+            "en": "The influence of those works can be visualized by several ways. The thickness of each branch represents the influential of that category.",
+            "zh": "这些论文的影响力体现在若干方面。每个分支的粗细代表了这个类别的影响力，每个节点圆圈中的填充代表了这个时期的影响力。"
+        }
+    },
+    {
+        "title": {
+            "en": "Influence",
+            "zh": "影响力"
+        },
+        "description": {
+            "en": "The percentage in the node circle indicates the influence of works in that period. The star of each work gives its individual contribution.",
+            "zh": "每篇论文下还有象征该论文贡献的星星。"
+        }
+    },
+    {
+        "title": {
+            "en": "Rating",
+            "zh": "点赞"
+        },
+        "description": {
+            "en": "If you appreciate one paper's contribution to the source paper, you can click the like button to express your opinion.",
+            "zh": "如果你很欣赏某篇论文的贡献，你可以通过点赞的方式表达你的喜好。"
+        }
+    }
+]

@@ -1,0 +1,21 @@
+.mrt-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    max-width: 40%;
+}
+
+.mrt-card .close-button {
+    transition: .25s transform;
+}
+
+.mrt-card .close-button:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.mrt-card .title {
+    white-space: normal;
+}

@@ -1,0 +1,131 @@
+@keyframes startAnim {
+    0%{
+        opacity: 0;
+    };
+    25% {
+        opacity: 0.25;
+    };
+    50% {
+        opacity: 0.5;
+    };
+    75% {
+        opacity: 0.75;
+    }
+}
+
+@keyframes titleStart {
+    0%{
+        transform: scale(0.4);
+    };
+    25% {
+        transform: scale(0.6);
+    };
+    50% {
+        transform: scale(0.7);
+    };
+    75% {
+        transform: scale(0.8);
+    };
+    100% {
+        transform: scale(1);
+    }
+}
+
+.papercard {
+    position: absolute;
+    opacity: 0.98;
+    border-radius: 20px;
+    border-color:rgba(255,255,255,255);
+    box-shadow:0 0 60px rgba(255,255,255,1000);
+    animation-name: startAnim;
+    animation-duration: 0.2s;
+    transition: height 0.2s, left 0.2s, top 0.2s, opacity 0.2s;
+
+    .papercard_detail {
+        position: relative;
+        text-align: left;
+        white-space: pre-wrap;
+        width: 94%;
+        margin-left: 3%;
+    }
+
+    .papercard_edit_stars {
+        transition: transform 0.5s;
+    }
+
+    .papercard_edit_stars:hover {
+        transform: scale(1.4, 1.4);
+    }
+
+    .papercard_edit {
+        position: relative;
+        width: 94%;
+        margin-left: 3%;
+        margin-top: 6px;
+        height: 32px;
+    }
+
+    // .papercard_edit_text {
+    //     width: 120%;
+    //     margin-left: -10%;
+    //     margin-top: -6px;
+    //     text-align: center;
+    //     font-size: 12px;
+    //     transform: scale(0.6, 0.6);
+    // }
+
+    .papercard_edit_right {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    .papercard_edit_right_icon {
+        position: relative;
+        float: right;
+        margin-right: 6px;
+        background-color: #ffffff01;
+        transition: transform 0.5s;
+    }
+
+    .papercard_edit_right_icon:hover {
+        transform: scale(1.4, 1.4);
+        cursor: pointer;
+    }
+
+    .papercard_edit_btn {
+        position: relative;
+        .papercard_edit_text {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 7px;
+            text-align: center;
+            white-space: nowrap;
+        }
+    }
+}
+
+.copy-btn {
+    &:hover {
+        cursor: pointer;
+        .tooltiptext {
+            visibility: visible;
+        }
+    }
+    margin-left: 8px;
+    display: inline-block;
+    position: relative;
+    .tooltiptext {
+        visibility: hidden;
+        text-align: center;
+        font-size: 12px;
+        position: absolute;
+        z-index: 1;
+        left: 100%;
+        top: 50%;
+        transform: translate(0%, -50%);
+        white-space: nowrap;
+        font-weight: normal;
+    }
+}
