@@ -1,0 +1,8 @@
+[
+    {"source": "bert", "pub_id": "df2b0e26d0599ce3e70df8a9da02e51594e0e992"},
+    {"source": "xlnet", "pub_id": "e0c6abdbdecf04ffac65c440da77fb9d66bb474c"},
+    {"source": "albert", "pub_id": "f1aeca01847df5308b4fbd9fb835e31339b51f49"},
+    {"source": "attention", "pub_id": "204e3073870fae3d05bcbc2f6a8e263d9b72e776"},
+    {"source": "deq", "pub_id": "a7cde839d407a9eff6ad8abd6a2c2c35787a37e5"},
+    {"source": "gcn", "pub_id": "36eff562f65125511b5dfab68ce7f7a943c27478"}
+]
