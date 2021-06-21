@@ -55,6 +55,10 @@ class App extends React.Component {
 export default App;
 ```
 
+## Note
+
+When you develop this library, you may encounter a problem associated with "invalid hook call" from React. This is due to the duplicated react instance from two different react library (although they may have the same version). You can link the `react` library in `example` app to the `react-mrt` library by running `npm link example/node_modules/react` to solve this problem.
+
 ## License
 
 MIT © [THUDM](https://github.com/thudm)
