@@ -7,6 +7,8 @@ setup(
     version = __version__,
     license='MIT',
     description = 'The MRT framework to generate evolution roadmap for publications.',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
     author = 'Da Yin, Weng Lam Tam, Ming Ding, Jie Tang',
     author_email = 'yd18@mails.tsinghua.edu.cn, tanyl19@mails.tsinghua.edu.cn, dm18@mails.tsinghua.edu.cn, jietang@tsinghua.edu.cn',
     url = 'https://github.com/THUDM/mrt',

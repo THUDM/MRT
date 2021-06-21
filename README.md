@@ -2,11 +2,11 @@
 
 [![NPM](https://img.shields.io/pypi/v/mrtframework.svg)](https://pypi.org/project/mrtframework/) [![Python Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://www.python.org/dev/peps/pep-0008/)
 
-[Demo Web Page](https://somefive.github.io/react-mrt) | [UI Library](https://github.com/Somefive/mrtframework/tree/react-mrt)
+[Demo Web Page](https://thudm.github.io/MRT/) | [UI Library](https://github.com/THUDM/mrt/tree/react-mrt)
 
 ## Introduction
 
-This is the python code for generating MRT (Master Reading Tree). The output json can be loaded using the React Component [react-mrt](https://www.npmjs.com/package/react-mrt). You can directly go to the [demo](https://somefive.github.io/react-mrt) page and click the **Load Json** button to upload the output json as well.
+This is the python code for generating MRT (Master Reading Tree). The output json can be loaded using the React Component [react-mrt](https://www.npmjs.com/package/react-mrt). You can directly go to the [demo](https://thudm.github.io/MRT/) page and click the **Load Json** button to upload the output json as well.
 
 The [AMiner](https://www.aminer.cn) system has already integrated this library and can generate MRTs for papers. So if you just want to see MRTs for papers, you can go to AMiner directly.
 
