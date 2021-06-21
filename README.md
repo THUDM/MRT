@@ -1,6 +1,6 @@
 # MRT: Tracing the Evolution of Scientific Publications
 
-[Official Site](https://mrt.aminer.cn/) | [Demo](https://somefive.github.io/react-mrt/)
+[Official Site](https://mrt.aminer.cn/) | [Demo](https://thudm.github.io/MRT/)
 
 The implementation for the paper "[MRT: Tracing the Evolution of Scientific Publications](http://keg.cs.tsinghua.edu.cn/jietang/publications/TKDE21-Yin-et-al-MRT-Tracing-the-Evolution-of-Scientific-Publications.pdf)" (TKDE 2021 accepted).
 
